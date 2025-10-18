@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.UUID;
 
+// Service to handle transaction commands
 @Service
 public class TransactionCommandHandler {
 

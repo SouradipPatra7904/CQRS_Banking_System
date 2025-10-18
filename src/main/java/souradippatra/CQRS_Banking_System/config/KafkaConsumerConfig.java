@@ -14,6 +14,8 @@ import souradippatra.CQRS_Banking_System.event.TransactionEvent;
 import java.util.HashMap;
 import java.util.Map;
 
+// Consumer Configuration for Kafka
+
 @EnableKafka
 @Configuration
 public class KafkaConsumerConfig {

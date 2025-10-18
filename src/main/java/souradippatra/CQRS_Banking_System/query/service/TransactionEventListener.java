@@ -9,6 +9,7 @@ import souradippatra.CQRS_Banking_System.query.repository.AccountSummaryReposito
 
 import java.math.BigDecimal;
 
+// Simple Bank Transaction Event Listener for updating AccountSummary
 @Service
 public class TransactionEventListener {
 

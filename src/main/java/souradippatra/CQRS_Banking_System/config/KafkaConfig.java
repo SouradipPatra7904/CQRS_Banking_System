@@ -13,6 +13,8 @@ import souradippatra.CQRS_Banking_System.event.TransactionEvent;
 import java.util.HashMap;
 import java.util.Map;
 
+//Producer Configuration for Kafka
+
 @Configuration
 public class KafkaConfig {
 
