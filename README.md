@@ -43,7 +43,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 2. **Kafka Setup (KRaft mode):**
 
-    * Initialize Kafka.
+* Initialize Kafka (assuming your "Kafka" is installed in a directory named "kafka_local") :
     
 ```bash
 KAFKA_CLUSTER_ID="$(kafka_local/bin/kafka-storage.sh random-uuid)"
@@ -51,7 +51,7 @@ KAFKA_CLUSTER_ID="$(kafka_local/bin/kafka-storage.sh random-uuid)"
 ~/kafka_local/bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c ~/kafka_local/config/server properties
 ```
 
-   * Ensure Kafka broker is running on `localhost:9092`.
+   * Ensure Kafka broker is running on `localhost:9092` :
 
 ```bash
 ~/kafka_local/bin/kafka-server-start.sh ~/kafka_local/config/server.properties
